@@ -15,12 +15,13 @@ body {
 }
 
 .titulo {
-    color: rgb(255, 222, 74);
+    color: rgb(231, 204, 82);
     font-size: 100px;
 }
 
 .subtitulo {
     font-size: 40px;
+    color:blueviolet;
 }
 
 .tarjetas{
@@ -45,6 +46,34 @@ body {
     width: 80px;
 }
 
+#boton-mascota {
+    font-family: "Luckiest Guy";
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid blueviolet;
+    color:blueviolet;
+    margin-top: 30px;
+}
+
 input {
     display: none;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque {
+    font-family: "Luckiest Guy";
+    background-color: #4cd2db;
+    background: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+    color:blueviolet;
+    width: 100px;
 }
